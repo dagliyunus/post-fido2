@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "esModuleInterop": true,           // ✅ Fixes helmet, morgan, cors, express-session
+    "resolveJsonModule": true,         // ✅ Allows import of config.json
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true               // ✅ Optional, prevents TS complaining about node_modules
+  },
+  "include": ["src"]
+}
